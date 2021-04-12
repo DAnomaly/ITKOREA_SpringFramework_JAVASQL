@@ -34,6 +34,7 @@ public class MembersHandler {
 			case 3: edit(); break;
 			case 4: findID(); break;
 			case 5: selectMembers(); break;
+			default: System.out.println("잘못된 선택입니다. 다시 입력하세요.");
 			}
 		}
 	} // excute()
